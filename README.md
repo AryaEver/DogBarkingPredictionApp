@@ -4,14 +4,16 @@ In this project there are 3 stages to follow from step to step.
 
 <img src="./overall procedure.png" height="250" />
 
-#######H6 1- Pre-processing: 
+######H6 header
+
+**1- Pre-processing:** 
 in this stage user should download the provided datasets from the following link "[not yet hosted]" or add manually from a local source and put them in the dataset folders. Then run the python script in the 1-preprocessing folder to rename and reorganize all the files that are in the same category and exclude exceptions that are not labeled. The previous procedure should generate a .csv file containing all files organized by each classification task (name, breed, age, sex, context) with all the matching labeled audiofiles information and their labels in the last column duration should be at max 1 sec and empty space will be filled with zeros also the sample rate now its at 8820Hz, so the number of columns in th .csv file is 8820 data + 1 for labels and rows are the number of audio files.  
 
-#######H6 2- Characterization: 
+**2- Characterization:**
 
-#######H6 3- Classifying:  
+**3- Classifying:**  
 
-#######H6 Additionally: 
+**Additionally:** 
 
 ## Installation
 
