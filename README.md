@@ -1,6 +1,7 @@
 # Dog Barking Prediction App
 
 In this project there are 3 stages to follow from step to step.
+img src="./overall procedure.png" height="200" />
 
 1- Pre-processing:
 
