@@ -4,12 +4,18 @@ In this project there are 3 stages to follow from step to step.
 
 <img src="./overall procedure.png" height="250" />
 
-######H6 header
-
 **1- Pre-processing:** 
+
 in this stage user should download the provided datasets from the following link "[not yet hosted]" or add manually from a local source and put them in the dataset folders. Then run the python script in the 1-preprocessing folder to rename and reorganize all the files that are in the same category and exclude exceptions that are not labeled. The previous procedure should generate a .csv file containing all files organized by each classification task (name, breed, age, sex, context) with all the matching labeled audiofiles information and their labels in the last column duration should be at max 1 sec and empty space will be filled with zeros also the sample rate now its at 8820Hz, so the number of columns in th .csv file is 8820 data + 1 for labels and rows are the number of audio files.  
 
 **2- Characterization:**
+
+in this stage user should proceed to evaluate and select which characterization techinques to use options provided are: 
+1:Proceed with raw audio (Data augmentation should be done here if planned to use). 
+2:Compute Melspectrograms over raw audio using librosa in a python script.
+3:Extract a group of low level descriptors with external software (OpenSmile).
+4:"[not yet implmented]"Extract Specific group of low level descriptors using librosa in a python script.
+Then eduction of dimension of size of feature set.
 
 **3- Classifying:**  
 
