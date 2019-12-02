@@ -11,10 +11,10 @@ in this stage user should download the provided datasets from the following link
 **2- Characterization:**
 
 in this stage user should proceed to evaluate and select which characterization techinques to use options provided are: 
-1:Proceed with raw audio (Data augmentation should be done here if planned to use). 
-2:Compute Melspectrograms over raw audio using librosa in a python script.
-3:Extract a group of low level descriptors with external software (OpenSmile).
-4:"[not yet implmented]"Extract Specific group of low level descriptors using librosa in a python script.
++ 1:Proceed with raw audio (Data augmentation should be done here if planned to use). 
++ 2:Compute Melspectrograms over raw audio using librosa in a python script.
++ 3:Extract a group of low level descriptors with external software (OpenSmile).
++ 4:"[not yet implmented]"Extract Specific group of low level descriptors using librosa in a python script.
 Then eduction of dimension of size of feature set.
 
 **3- Classifying:**  
