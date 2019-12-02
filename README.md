@@ -31,7 +31,7 @@ At this stage user should proceed to evaluate and select which characterization 
 + Extract a group of low level descriptors with external software (OpenSmile).
 + "[not yet implmented]" Extract a specific group of low level descriptors using librosa in a python script.
 
-Then if it's necessary the following step is to apply a reduction to the features size for better performance, options providedare:
+Then if it's necessary the following step is to apply a reduction to the features size for better performance, options provided are:
 + selection by ranking using attribute relief data with weka software and chopping from a certain range.
 + "[not yet implmented]" other reduction techniques.
 
