@@ -1,5 +1,18 @@
 # Dog Barking Prediction App
 
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all the following packages.
+
+```bash
+pip install tensorflow-gpu 
+pip install keras
+pip install pandas
+pip install librosa
+pip install seaborn
+pip install scikit-learn
+```
+
 In this project there are 3 stages to follow from step to step.
 
 <img src="./overall procedure.png" height="250" />
@@ -31,19 +44,6 @@ This stage requires the user to configure the Deep_Learning_Run_Conf.py file bef
 +Back-end: convert the .H5 files in to .Json and .bin shard files running the convert_h5_models_to_json.py file and then hsot a simple server with cors in the folder.
 
 +Front-end: "[not yet implmented]" run the start_frontend_server.py file the front-end folder and test the predictions.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all the following packages.
-
-```bash
-pip install tensorflow-gpu 
-pip install keras
-pip install pandas
-pip install librosa
-pip install seaborn
-pip install scikit-learn
-```
 
 ## Contributing
 If you have any trouble or instructions are not clear, please comment the issue so i can fix it or explain it with more detail.
